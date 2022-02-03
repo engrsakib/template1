@@ -1,0 +1,285 @@
+/*All Code link:https://sktthemesdemo.net/multipurpose-html/# */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+/*Logo design start*/
+.logo img{
+    line-height: 100px;
+    margin: 30px;
+    /*padding-left: 10px;*/
+}
+/*Logo design end*/
+/*Menu Style start*/
+.logo{
+    width: 285px;
+    min-height: 100px;
+    background: #9FA3A5;
+    padding: 0;
+    margin: 0;
+
+}
+.menu{
+    width: 100%;
+    min-height: 100px;
+    background: #9FA3A5;
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+    list-style: none;
+    
+    /*display: inline;*/
+}
+.menu ul li{
+    display: inline;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+.menu ul li a:hover{
+    color: greenyellow;
+}
+#current{
+    color:greenyellow;
+}
+/*Menu Style end*/
+/*Main Bar Start*/
+.headpic{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5px;
+}
+.headpic img{
+    width: 100%;
+    height: 300px;
+}        
+/*Main Bar Start*/
+/*Second Part start*/
+    .head{
+        width: 100%;
+        height: 300px;
+    }
+    .head h1{
+        text-align: center;
+        padding-top: 100px;
+        text-transform: uppercase;
+        font-size: xx-large;
+        color:rgb(0, 48, 2));
+    }
+    .head p{
+        text-align: center;
+        padding-top: 5px;
+    }
+/*Second Part end*/
+/*Slider start*/
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
+
+body { background-color: #000541; }
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family:'Lato', sans-serif !important;
+	font-size: 13pt !important;
+	font-weight: 300 !important;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+#myPageContent, section { 
+	height:100% !important; 
+	width:100% !important;
+}
+
+
+/* Slider */
+.slider{
+    width: 100%;
+    min-height: 300px;
+}
+#textSlider.row {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100% !important;
+}
+#textSlider div {
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+.iamCol {
+    text-align: right;
+	float: left;
+	font-weight: 300;
+	font-size:30pt;
+}
+.iamCol p:nth-child(2) { margin-top: -20pt !important; }
+.slideCol {
+	text-align: left;
+    overflow: hidden;
+	font-weight: 900;
+	font-size:70pt;
+	display: block;
+	white-space: nowrap;
+}
+.slideCol p { margin: 0px !important; }
+
+.scroller {
+   height: 70pt;
+   line-height: 70pt;
+   overflow: hidden;
+}
+.scroller .inner { animation: 10s normal infinite running scroll; }
+@keyframes scroll {
+   0%  	{margin-top: 0px;}
+   15% 	{margin-top: 0px;}
+
+   25%  {margin-top: -70pt;}
+   40%  {margin-top: -70pt;}
+   
+   50%  {margin-top: -140pt;}
+   65%  {margin-top: -140pt;}
+
+   75%  {margin-top: -210pt;}
+   90%  {margin-top: -210pt;}
+
+   100% {margin-top: 0px;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
+    .iamCol { text-align: center; font-size:20pt; }
+	.iamCol p { display: inline !important; }
+	.slideCol { font-size: 25pt; text-align: center; margin-top: -20px; }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width : 765px) {
+	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
+    .iamCol { text-align: center; font-size:25pt; }
+	.iamCol p { display: inline !important; }
+	.slideCol { font-size: 38pt; text-align: center; margin-top: -20px; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
+	.iamCol { text-align: center; font-size:30pt; }
+	.iamCol p { display: inline !important; }
+	.slideCol { font-size: 50pt; text-align: center; margin-top: 5px; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+	#textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
+	.iamCol { text-align: right; font-size:30pt; }
+	.slideCol { font-size: 55pt; text-align: left; }
+}
+/*Slider end*/
+
+
+
+/*fotter start*/
+.fotter{
+    background-color: #1D1D1D;
+    width: 100%;
+    height: 400px;
+}
+.fotterHeadding h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    /*margin-left: 5px;*/
+}
+.fotterPragraph{
+    color: #b1b1b3;
+    text-align: justify;
+    margin-top: 50px;
+    /*text-transform: capitalize;*/
+}
+.recentPostTitle h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.recentNews{
+    display: inline-block;
+
+}
+.recentNews img{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    
+    /*border: 1px solid black;*/
+}
+.recentNewsText{
+    color: #b1b1b3;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+.recent{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    
+}
+.recentLimk{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    /*margin: 100px;*/
+    text-align: right;
+    padding: 0;
+    margin: 0;
+
+}
+.recentLimk:hover{
+    color: yellow;
+}
+.recentLimk:active{
+    color: tomato;
+}
+.certasy{
+    width: 100%;
+    height: 100px;
+    background-color: #050303;
+}
+/*fotter end*/

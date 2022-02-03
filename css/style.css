@@ -1,0 +1,420 @@
+/*All Code link:https://sktthemesdemo.net/multipurpose-html/# */
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -moz-backface-visibility: hidden;
+    mask-border-source: hidden;
+    
+}
+body{
+
+}
+/*Logo design start*/
+.logo img{
+    line-height: 100px;
+    margin: 30px;
+    /*padding-left: 10px;*/
+}
+/*Logo design end*/
+/*Menu Style start*/
+.col-md-3{
+    padding: 0;
+    margin: 0;
+}
+.col-md-9{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 285px;
+    min-height: 100px;
+    background: #9FA3A5;
+    padding: 0;
+    margin: 0;
+
+}
+.menu{
+    width: 100%;
+    min-height: 100px;
+    background: #9FA3A5;
+    padding: 0;
+    margin: 0;
+    display: fixed;
+}
+.menu ul{
+    list-style: none;
+    
+    /*display: inline;*/
+}
+.menu ul li{
+    display: inline;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    /*position: fixed;*/
+}
+.menu ul li a:hover{
+    color: greenyellow;
+}
+#current{
+    color:greenyellow;
+}
+/*Menu Style end*/
+/*Slide Bar Start*/
+  #immage{
+     height: 100%;
+     width: 300px; 
+  } 
+  
+/*Slide Bar Start*/
+/*Middle Contant Start*/
+/*Left Side start*/
+.col-md-4{
+    padding: 0;
+    margin: 0;
+}
+.leftSide{
+width: 100%;
+min-height: 300px;
+background-color: #F9F8F8;
+}
+#dextop{
+    font-size: 100px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 50px;
+    color: red;  
+  }
+  .text h1{
+      color: sandybrown;
+      text-align: center;
+      font-size: larger;
+      padding-top: 10px;
+  } 
+  /*left Side End*/    
+  /*Middle site start*/
+.middleSide{
+width: 100%;
+min-height: 300px;
+background-color: #F3F3F3;
+}
+#web{
+    font-size: 100px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 50px;
+    color: orangered; 
+}
+/*Middle site end*/
+/*right side start*/
+.rightSide{
+width: 100%;
+min-height: 300px;
+background-color: #E9E9E9;
+}
+#suport{
+    font-size: 100px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 50px;
+    color: blue; 
+}
+/*right side end*/
+
+/*Middle Contant End*/
+/*Third Part Start*/
+.col-md-12{
+    padding: 0;
+    margin: 0;
+}
+.thirdPart{
+    width: 100%;
+    min-height: 200px;
+    background-color: seashell;
+}
+.thd{
+    text-align: center;
+    background-color:;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.thirdPart p{
+    text-align: center;
+    padding-top: 5px;
+}
+/*Third Part End*/
+/*Creative Area part start*/
+.col-md-4{
+    padding: 0;
+    margin: 0;
+}
+.col-md-8{
+    padding: 0;
+    margin: 0;
+}
+.col-md-6{
+    padding: 0;
+    margin: 0;
+}
+.cPic{
+    width: 100%;
+    max-height: 400px;
+}
+.cPic img{
+    width: 100%;
+    height: 400px;
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+.cText{
+    width: 100%;
+    max-height: 400px;
+    
+}
+.cText h1{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.cText p{
+    text-align: justify;
+    font-size: medium;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.button{
+    background-color: #238EE7;
+    width: 120px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 25px;
+    color: white;
+
+}
+.button:hover{
+    background-color: yellow;
+    color: green;
+    transition-delay: 0.2s;
+}
+/*Creative Area part End*/
+/*Satisfied Clients Start*/
+.sText{
+    width: 100%;
+    max-height: 600px;
+}
+.sText h1{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 15px;
+    text-transform: uppercase;
+    
+}
+.sText p{
+    width: 100%;
+    height: 350px;
+    overflow: scroll;
+    text-transform: none;
+    text-align: justify;
+}
+.sPic{
+    width: 100%;
+    max-height: 400px;
+}
+.sPic img{
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    border: black dashed 1px;
+}
+/*Satisfied Clients End*/
+/*Services Area Start*/
+.col-md-12{
+    padding: 0;
+    margin: 0;
+}
+.servicseHeadding{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+.servicseHeadding h1{
+    line-height: 100px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.servicseHeadding h5{
+    text-align: center;
+    font-weight: lighter;
+    font-size: medium;
+}
+.sreviceLeft{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    padding: 15px;
+    border: 0.5px solid black;
+    box-shadow: black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.sreviceLeft:hover{
+    background-color: rgb(7, 18, 175);
+    color: cornsilk;
+}
+.sreviceLeft img{
+    width: 100%;
+    height: 300px;
+    border-radius: 14px;
+}
+.sreviceLeft h1{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.sreviceLeft p{
+    text-align: justify;
+
+}
+.sreviceLeft a{
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+    padding-top: 10px;
+
+}
+/*Services Area End*/
+/*Devloper start*/
+.devloper{
+    width: 100%;
+    height: 380px;
+}
+.devloper img{
+    width: 100%;
+    height: 600px;
+    border: dotted red 2px;
+    border-radius: 15px;
+}
+.devloper h1{
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: rgb(2, 15, 75);
+}
+.devloper h4{
+    text-align: center;
+    padding-top: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.devloper h5{
+    text-align: center;
+    font-size: small;
+    text-transform: lowercase;
+}
+.name{
+    /*line-height: 600px;*/
+    margin-top: 250px;
+}
+/*.devloper img:hover{
+    background-color: black;
+}*/
+/*Devloper End*/
+/*fotter start*/
+.fotter{
+    background-color: #1D1D1D;
+    width: 100%;
+    height: 400px;
+}
+.fotterHeadding h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    /*margin-left: 5px;*/
+}
+.fotterPragraph{
+    color: #b1b1b3;
+    text-align: justify;
+    margin-top: 50px;
+    /*text-transform: capitalize;*/
+}
+.recentPostTitle h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.recentNews{
+    display: inline-block;
+
+}
+.recentNews img{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    
+    /*border: 1px solid black;*/
+}
+.recentNewsText{
+    color: #b1b1b3;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+.recent{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    
+}
+.recentLimk{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    /*margin: 100px;*/
+    text-align: right;
+    padding: 0;
+    margin: 0;
+
+}
+.recentLimk:hover{
+    color: yellow;
+}
+.recentLimk:active{
+    color: tomato;
+}
+.certasy{
+    width: 100%;
+    height: 100px;
+    background-color: #050303;
+}
+/*fotter end*/

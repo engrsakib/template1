@@ -1,0 +1,151 @@
+/*All Code link:https://sktthemesdemo.net/multipurpose-html/# */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+/*Logo design start*/
+.logo img{
+    line-height: 100px;
+    margin: 30px;
+    /*padding-left: 10px;*/
+}
+/*Logo design end*/
+/*Menu Style start*/
+.logo{
+    width: 285px;
+    min-height: 100px;
+    background: #9FA3A5;
+    padding: 0;
+    margin: 0;
+
+}
+.menu{
+    width: 100%;
+    min-height: 100px;
+    background: #9FA3A5;
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+    list-style: none;
+    
+    /*display: inline;*/
+}
+.menu ul li{
+    display: inline;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+.menu ul li a:hover{
+    color: greenyellow;
+}
+#current{
+    color:greenyellow;
+}
+/*Menu Style end*/
+/*IFrame Start*/
+.iFarame{
+    width: 100%;
+    min-width: 350px;
+    
+} 
+iframe{
+    border: 4px solid rgba(2, 2, 59, 0.062);
+    border-radius: 25px;
+}       
+/*IFrame End*/
+
+
+
+
+
+/*fotter start*/
+.fotter{
+    background-color: #1D1D1D;
+    width: 100%;
+    height: 400px;
+}
+.fotterHeadding h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    /*margin-left: 5px;*/
+}
+.fotterPragraph{
+    color: #b1b1b3;
+    text-align: justify;
+    margin-top: 50px;
+    /*text-transform: capitalize;*/
+}
+.recentPostTitle h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.recentNews{
+    display: inline-block;
+
+}
+.recentNews img{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    
+    /*border: 1px solid black;*/
+}
+.recentNewsText{
+    color: #b1b1b3;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+.recent{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    
+}
+.recentLimk{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    /*margin: 100px;*/
+    text-align: right;
+    padding: 0;
+    margin: 0;
+
+}
+.recentLimk:hover{
+    color: yellow;
+}
+.recentLimk:active{
+    color: tomato;
+}
+.certasy{
+    width: 100%;
+    height: 100px;
+    background-color: #050303;
+}
+/*fotter end*/

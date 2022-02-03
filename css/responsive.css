@@ -1,0 +1,173 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*Menu Start*/
+    .menu{
+        width: 100%;
+        min-height: 30px;
+        background: #9FA3A5;
+        padding: 0;
+        margin: 0;
+    }
+    .menu ul{
+        list-style: none;
+        
+        /*display: inline;*/
+    }
+    .menu ul li{
+        display: inline;
+        padding: 2px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        line-height: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: large;
+        color: white;
+        /*background-color: bisque;*/
+        padding: 2px;
+    }
+    .menu ul li a:hover{
+        color: greenyellow;
+    }
+    /*Menu End*/
+    /*fotter start*/
+    .fotter{
+    background-color: #1D1D1D;
+    width: 100%;
+    height: 700px;
+    }
+    .fotterHeadding h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    /*margin-left: 5px;*/
+    }
+    .fotterPragraph{
+    color: #b1b1b3;
+    text-align: justify;
+    margin-top: 20px;
+    /*text-transform: capitalize;*/
+    }
+    .recentPostTitle h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    }
+    .recentNews{
+    display: inline-block;
+
+    }
+    .recentNews img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    /*display: inline-block;*/
+    
+    /*border: 1px solid black;*/
+    }
+    .recentNewsText{
+    color: #b1b1b3;
+    /*display: inline-block;*/
+    padding: 0;
+    margin: 0;
+
+    }
+    .recent{
+    /*display: inline-block;*/
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    
+    }
+    /*Third Part Start*/
+    .thd{
+    text-align: center;
+    background-color:;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bolder;
+    }
+    .thirdPart p{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    }
+    /*Third Part End*/
+    .recentLimk{
+    text-decoration: none;
+    /*display: inline-block;*/
+    color: white;
+    /*margin: 100px;*/
+    text-align: right;
+    padding: 0;
+    margin: 0;
+
+    }
+    .recentLimk:hover{
+    color: yellow;
+    }
+    .recentLimk:active{
+    color: tomato;
+    }
+    .certasy{
+    
+    }
+    /*fotter end*/
+    }
+    /*About middle Area Start*/
+    .text1 h1{
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+    }
+    .text1 p{
+        overflow: hidden;
+        
+    }
+    .text1{
+        overflow: scroll;
+    }
+    /*About Middle Area End*/
+    /*Teem area Start*/
+    .teem{
+        margin-top: 20px;
+    }
+    .teem img{
+        margin-top: 25px;
+    }
+    /*Teem Area End*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

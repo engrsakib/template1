@@ -1,0 +1,301 @@
+/*All Code link:https://sktthemesdemo.net/multipurpose-html/# */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.col-md-4{
+    margin: 0;
+    padding: 0;
+}
+.col-md-3{
+    margin: 0;
+    padding: 0;
+}
+.col-md-5{
+    margin: 0;
+    padding: 0;
+}
+.col-md-6{
+    margin: 0;
+    padding: 0;
+}
+.col-md-7{
+    margin: 0;
+    padding: 0;
+}
+.col-md-8{
+    margin: 0;
+    padding: 0;
+}
+.col-md-9{
+    margin: 0;
+    padding: 0;
+}
+.col-md-10{
+    margin: 0;
+    padding: 0;
+}
+.col-md-11{
+    margin: 0;
+    padding: 0;
+}
+.col-md-12{
+    margin: 0;
+    padding: 0;
+}
+/*Logo design start*/
+.logo img{
+    line-height: 100px;
+    margin: 30px;
+    /*padding-left: 10px;*/
+}
+/*Logo design end*/
+/*Menu Style start*/
+.logo{
+    width: 285px;
+    min-height: 100px;
+    background: #9FA3A5;
+    padding: 0;
+    margin: 0;
+
+}
+.menu{
+    width: 100%;
+    min-height: 100px;
+    background: #9FA3A5;
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+    list-style: none;
+    
+    /*display: inline;*/
+}
+.menu ul li{
+    display: inline;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+.menu ul li a:hover{
+    color: greenyellow;
+}
+#current{
+    color:greenyellow;
+}
+/*Menu Style end*/
+/*Slide Bar Start*/
+  .servicesImg{
+      width: 100%;
+      height: 300px;
+  }
+  .servicesImg img{
+      width: 100%;
+      height: 300px;
+      border: solid 1px black;
+      border-radius: 15px;
+  }      
+/*Slide Bar Start*/
+/*Services Area Start*/
+    .leftSide{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(134, 119, 96);
+
+    }
+    .middleSide{
+        width: 100%;
+        height: 500px;
+        background-color: blanchedalmond;
+    }
+    .rightSide{
+        width: 100%;
+        height: 500px;
+        background-color: rgba(180, 180, 179, 0.274);
+    }
+    #UX{
+        font-size: 100px;
+        text-align: center;
+        padding-top: 150px;
+        padding-left: 120px;
+        color: red;
+    }
+    #UI{
+        font-size: 120px;
+        text-align: center;
+        padding-top: 150px;
+        padding-left: 130px;
+        color: rgb(54, 2, 70);
+    }
+    #US{
+        font-size: 120px;
+        text-align: center;
+        padding-top: 150px;
+        padding-left: 130px;
+        color: rgb(1, 49, 5);
+    }
+    .leftSide h1{
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 6px;
+        font-size: x-large;
+    }
+    .middleSide h1{
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 6px;
+        font-size: x-large;
+    }
+    .rightSide h1{
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 6px;
+        font-size: x-large;
+    }
+    
+/*Services Area end*/
+/*servicess head star*/
+    .head h1{
+        text-align: center;
+        padding-top: 75px;
+        color: rgba(5, 5, 105, 0.918);
+        font-weight: bold;
+        text-transform: uppercase;
+    } 
+    .head p{
+        text-align: center;
+        padding-top: 2px;
+        font-size: 20px;
+    }
+    .head{
+        width: 100%;
+        min-height: 250px;
+    }   
+/*Servicess head end*/
+/*Midd Are start*/
+    .pic{
+        width: 95%;
+        height: 350px;
+        padding: 5px;
+    }
+    .pic img{
+        width: 100%;
+        height: 350px;
+        border-radius: 25px;
+    }
+    .text{
+        width: 95%;
+        height: 250px;
+        background-color: white;
+        border: black 1px solid;
+        border-radius: 25px;
+        margin-bottom: 10px;
+        margin-bottom: 5px;
+    }
+    .text:hover{
+        background-color: rgb(0, 0, 46);
+        color: white;
+    }
+    .text h1{
+        text-align: center;
+        font-weight: bolder;
+        padding-top: 15px;
+        font-size: large;
+        text-transform: uppercase;        
+    }
+    .text p{
+        text-align: center;
+        padding: 10px;
+    }
+/*Midd Area end*/
+
+
+/*fotter start*/
+.fotter{
+    background-color: #1D1D1D;
+    width: 100%;
+    height: 400px;
+}
+.fotterHeadding h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    /*margin-left: 5px;*/
+}
+.fotterPragraph{
+    color: #b1b1b3;
+    text-align: justify;
+    margin-top: 50px;
+    /*text-transform: capitalize;*/
+}
+.recentPostTitle h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.recentNews{
+    display: inline-block;
+
+}
+.recentNews img{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    
+    /*border: 1px solid black;*/
+}
+.recentNewsText{
+    color: #b1b1b3;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+.recent{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    
+}
+.recentLimk{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    /*margin: 100px;*/
+    text-align: right;
+    padding: 0;
+    margin: 0;
+
+}
+.recentLimk:hover{
+    color: yellow;
+}
+.recentLimk:active{
+    color: tomato;
+}
+.certasy{
+    width: 100%;
+    height: 100px;
+    background-color: #050303;
+}
+/*fotter end*/
